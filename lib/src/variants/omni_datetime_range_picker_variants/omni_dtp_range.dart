@@ -229,7 +229,7 @@ class _PickerViewState extends State<PickerView>
           ),
           if (widget.type == OmniDateTimePickerType.dateAndTime)
             Padding(
-              padding: const EdgeInsets.only(bottom: 24.0),
+              padding: const EdgeInsets.only(bottom: 5.0),
               child: TimePickerSpinner(
                 time: widget.initialDate,
                 amText: localizations.anteMeridiemAbbreviation,
