@@ -77,7 +77,7 @@ class _OmniDtpRangeState extends State<OmniDtpRange>
             ConstrainedBox(
               constraints: const BoxConstraints(
                 maxWidth: 350,
-                maxHeight: 550,
+                maxHeight: 450,
               ),
               child: TabBarView(
                 controller: _tabController,
